@@ -1,0 +1,14 @@
+// main.scss
+
+$primary-color: #ff6000;
+$secondary-color: #ffa559;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+h1 {
+  border-bottom: 2px solid $primary-color;
+}
