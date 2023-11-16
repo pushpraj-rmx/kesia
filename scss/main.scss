@@ -1,5 +1,23 @@
 // main.scss
 
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/header';
+@import 'components/footer';
+
+@import 'layouts/grid';
+@import 'layouts/layout';
+
+@import 'pages/home';
+@import 'pages/about';
+
+@import 'themes/theme';
+@import 'themes/colors';
+
+@import 'vendors/bootstrap';
+
+
 $primary-color: #ff6000;
 $secondary-color: #ffa559;
 
