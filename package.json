@@ -1,0 +1,26 @@
+{
+  "name": "kesia",
+  "version": "1.0.0",
+  "description": "Just a custom theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpraj-rmx/kesia.git"
+  },
+  "author": "Pushpraj Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpraj-rmx/kesia/issues"
+  },
+  "homepage": "https://github.com/pushpraj-rmx/kesia#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

@@ -1,0 +1,37 @@
+// scss/themes/_themes.scss
+
+:root {
+    --theme-mode: light; // Default theme
+}
+
+[data-theme='dark'] {
+    --theme-mode: dark;
+}
+
+// Mixin to switch between themes
+@mixin theme-switch {
+  @if var(--theme-mode) == light {
+    // Light Theme
+    $primary-color: $primary-color-light;
+    $secondary-color: $secondary-color-light;
+    $accent-color: $accent-color-light;
+  } @else {
+    // Dark Theme
+    $primary-color: $primary-color-dark;
+    $secondary-color: $secondary-color-dark;
+    $accent-color: $accent-color-dark;
+  }
+}
+
+
+$primary-color-light : #000;
+$secondary-color-light : #f00;
+$accent-color-light: #ff0; 
+
+
+$primary-color-dark : #4e0000e7;
+$secondary-color-dark : #436200d7;
+$accent-color-dark : #ff4848;
+
+// Apply the theme
+@include theme-switch;

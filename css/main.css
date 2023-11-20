@@ -1,11 +1,35 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #ffa559;
-  color: #ff6000;
+:root {
+  --theme-mode: light;
 }
 
-h1 {
-  border-bottom: 2px solid #ff6000;
+[data-theme=dark] {
+  --theme-mode: dark;
 }
 
-/*# sourceMappingURL=main.css.map */
+.header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.home {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.about {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}

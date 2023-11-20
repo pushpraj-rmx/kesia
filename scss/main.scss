@@ -1,7 +1,9 @@
-// main.scss
+// scss/main.scss
 
 @import 'base/reset';
 @import 'base/typography';
+@import 'themes/colors'; // Import the colors file
+@import 'themes/theme'; // Import the themes file
 
 @import 'components/header';
 @import 'components/footer';
@@ -12,21 +14,4 @@
 @import 'pages/home';
 @import 'pages/about';
 
-@import 'themes/theme';
-@import 'themes/colors';
-
 @import 'vendors/bootstrap';
-
-
-$primary-color: #ff6000;
-$secondary-color: #ffa559;
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: $secondary-color;
-  color: $primary-color;
-}
-
-h1 {
-  border-bottom: 2px solid $primary-color;
-}
